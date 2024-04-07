@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* *{
+  padding: 0;
+  margin: 0;
+}*/
+
+body {
+  font-family: Raleway, Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  text-align: center;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  white-space: nowrap; /* працюють разом */
+  overflow: hidden; /* працюють разом */
+  text-overflow: ellipsis; /* працюють разом */
+}
+
+.sub-main-title {
+  text-align: center;
+  font-size: 15px;
+  margin: 15px;
+}
+
+.black-sub-main-title {
+  background-color: black;
+  color: #f1f1f1;
+}
+
+.nature-article {
+  background-color: white;
+  padding: 16px;
+}
+
+.article-title-desc {
+  font-size: 18px;
+}
+
+.article-time {
+  color: grey;
+}
+
+.article-main-info {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.read-more-link {
+  font-size: 15px;
+  border: 1px solid grey;
+  font-weight: bold;
+  padding: 12px 24px;
+}
